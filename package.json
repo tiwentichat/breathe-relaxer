@@ -1,0 +1,53 @@
+{
+  "name": "breathe-relaxer",
+  "version": "2.0.0",
+  "description": "A relaxing breathing app with a visual director to tell you when to breathe in, hold and breathe out",
+  "engines": {
+    "node": ">=15.0.0",
+    "npm": ">=7.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerosoul/breathe-relaxer.git"
+  },
+  "keywords": [
+    "relax",
+    "breathe",
+    "react",
+    "meditation",
+    "yoga",
+    "css3"
+  ],
+  "author": "tristan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerosoul/breathe-relaxer/issues"
+  },
+  "homepage": "https://works.yangerxiao.com/breathe-relaxer/",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-github-btn": "^1.4.0",
+    "react-icons": "^4.6.0",
+    "react-share": "^4.4.0",
+    "styled-components": "^5.3.6",
+    "styled-reset": "^4.4.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2.1.0",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "vite": "^3.1.8"
+  }
+}
